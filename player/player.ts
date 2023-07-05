@@ -1,4 +1,4 @@
-import videoJs, { VideoJsPlayerOptions } from 'video.js'
+import videoJs from 'video.js'
 import { propsConfig, Props, PropKey } from './props'
 import { events, EventKey } from './events'
 import type { VideoJsPlayer } from './type'
@@ -131,7 +131,7 @@ export const createPlayer = ({ props, element, className, onEvent }: CreatePlaye
   }
 
   // Set new options to Video.js config.
-  const updateOptions = (options: VideoJsPlayerOptions) => {
+  const updateOptions = (options: PlayerOptions) => {
     player.options?.(options ?? {})
   }
 

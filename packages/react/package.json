@@ -42,7 +42,7 @@
     "@types/video.js": "7.x",
     "react": "^16.8 || ^17",
     "react-dom": "^16.8 || ^17",
-    "video.js": "7.x"
+    "video.js": "8.x"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

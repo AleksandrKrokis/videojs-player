@@ -8,7 +8,7 @@
     "esModuleInterop": true,
     "declaration": true,
     "lib": ["esnext", "dom"],
-    "types": ["vitest"]
+    "types": ["vitest", "@types/video.js"]
   },
   "exclude": ["node_modules"]
 }

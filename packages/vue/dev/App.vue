@@ -12,6 +12,7 @@
     [0.5, 1.5, 3]
   ]
   const sources = [
+    { src: 'http://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8', poster: '//vjs.zencdn.net/v/oceans.png' },
     { src: 'http://vjs.zencdn.net/v/oceans.mp4', poster: '//vjs.zencdn.net/v/oceans.png' },
     {
       src: '//d2zihajmogu5jn.cloudfront.net/sintel/sintel.mp4',
